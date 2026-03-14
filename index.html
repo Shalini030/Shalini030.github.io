@@ -833,13 +833,13 @@
       </div>
     </div>
     <div class="reveal reveal-delay-2">
-      <form class="contact-form" onsubmit="handleSubmit(event)">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <input type="text" placeholder="Subject" />
-        <textarea placeholder="Your Message"></textarea>
+      <form class="contact-form" action="https://formspree.io/f/mbdzknyq" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" />
+        <textarea name="message" placeholder="Your Message"></textarea>
         <button type="submit">Send Message</button>
-      </form>
+        </form>
     </div>
   </div>
 </section>
